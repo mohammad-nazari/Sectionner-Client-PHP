@@ -1,0 +1,35 @@
+<!DOCTYPE ClientSettings [
+		<!ELEMENT ClientSettings (SensorsSetting|SensorsSettingMono|LevelColors|TempratureTypeShow)*>
+		<!ELEMENT SensorsSetting (SensorName|MinimumLevel|MaximumLevel|MaximumThresholdLevel|MinimumThresholdLevel)*>
+		<!ELEMENT SensorName (#PCDATA)>
+		<!ELEMENT MinimumLevel (#PCDATA)>
+		<!ELEMENT MaximumLevel (#PCDATA)>
+		<!ELEMENT MaximumThresholdLevel (#PCDATA)>
+		<!ELEMENT MinimumThresholdLevel (#PCDATA)>
+		<!ELEMENT SensorsSettingMono (SensorName|LevelName)*>
+		<!ELEMENT LevelName (#PCDATA)>
+		<!ELEMENT LevelColors (LevelName|ColorName)*>
+		<!ELEMENT ColorName (#PCDATA)>
+		<!ELEMENT TempratureTypeShow (#PCDATA)>
+		]>
+<ClientSettings>
+	<!--Zero or more repetitions:-->
+	<SensorsSetting>
+		<SensorName>ACAMPERE3</SensorName>
+		<MinimumLevel>Major</MinimumLevel>
+		<MaximumLevel>Disable</MaximumLevel>
+		<MaximumThresholdLevel>Minor</MaximumThresholdLevel>
+		<MinimumThresholdLevel>Warning</MinimumThresholdLevel>
+	</SensorsSetting>
+	<!--Zero or more repetitions:-->
+	<SensorsSettingMono>
+		<SensorName>WATER</SensorName>
+		<LevelName>Warning</LevelName>
+	</SensorsSettingMono>
+	<!--Zero or more repetitions:-->
+	<LevelColors>
+		<LevelName>Major</LevelName>
+		<ColorName>lightslategray</ColorName>
+	</LevelColors>
+	<TempratureTypeShow>Fahrenheit</TempratureTypeShow>
+</ClientSettings>

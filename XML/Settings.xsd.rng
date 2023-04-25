@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <element name="ClientSettings">
+            <element name="SensorsSetting">
+                <ref name="SensorName"/>
+                <element name="MinimumLevel">
+                    <data type="NCName"/>
+                </element>
+                <element name="MaximumLevel">
+                    <data type="NCName"/>
+                </element>
+                <element name="MaximumThresholdLevel">
+                    <data type="NCName"/>
+                </element>
+                <element name="MinimumThresholdLevel">
+                    <data type="NCName"/>
+                </element>
+            </element>
+            <element name="SensorsSettingMono">
+                <ref name="SensorName"/>
+                <ref name="LevelName"/>
+            </element>
+            <element name="LevelColors">
+                <ref name="LevelName"/>
+                <element name="ColorName">
+                    <data type="NCName"/>
+                </element>
+            </element>
+            <element name="TempratureTypeShow">
+                <data type="NCName"/>
+            </element>
+        </element>
+    </start>
+    <define name="SensorName">
+        <element name="SensorName">
+            <data type="NCName"/>
+        </element>
+    </define>
+    <define name="LevelName">
+        <element name="LevelName">
+            <data type="NCName"/>
+        </element>
+    </define>
+</grammar>

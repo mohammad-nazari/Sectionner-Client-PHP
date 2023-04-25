@@ -1,0 +1,50 @@
+@font-face
+{
+	font-family : "digital-7" ;
+	src         : url(/fonts/digital-7.ttf) format("truetype");
+	}
+
+.class1
+{
+	background-color : red;
+	}
+
+.class2
+{
+	color : blue;
+	}
+
+.class3
+{
+	font-size : 20px;
+	}
+
+.class11
+{
+	background-color : green;
+	}
+
+.class22
+{
+	color : yellow;
+	}
+
+.class33
+{
+	font-size : 10px;
+	}
+
+.class111
+{
+	background-color : blue;
+	}
+
+.class222
+{
+	color : red;
+	}
+
+.class333
+{
+	font-size : 30px;
+	}

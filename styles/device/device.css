@@ -1,0 +1,958 @@
+.device {
+    display: block;
+    font-size: 14px;
+}
+
+.device-label {
+    float: left;
+}
+
+.device-div {
+    border: gray 1px solid;
+    display: flex;
+}
+
+/* On Off Switch */
+.onoffswitch-off {
+    position: relative;
+    width: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox-off {
+    display: none;
+}
+
+.onoffswitch-label-off {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner-off {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner-off:before, .onoffswitch-inner-off:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner-off:before {
+    content: "روشن";
+    padding-left: 10px;
+    background-color: green;
+    color: #FFF;
+}
+
+.onoffswitch-inner-off:after {
+    content: "خاموش";
+    padding-right: 10px;
+    background-color: #EEE;
+    color: #999;
+    text-align: right;
+}
+
+.onoffswitch-switch-off {
+    display: block;
+    width: 15px;
+    margin: 7.5px;
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 66px;
+    border: 2px solid #999;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox-off:checked + .onoffswitch-label-off .onoffswitch-inner-off {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox-off:checked + .onoffswitch-label-off .onoffswitch-switch-off {
+    right: 0px;
+}
+
+/******/
+.onoffswitch-gray {
+    position: relative;
+    width: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox-gray {
+    display: none;
+}
+
+.onoffswitch-label-gray {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner-gray {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner-gray:before, .onoffswitch-inner-gray:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner-gray:before {
+    content: "فعال";
+    padding-left: 10px;
+    background-color: gray;
+    color: #FFF;
+}
+
+.onoffswitch-inner-gray:after {
+    content: "غیر فعال";
+    padding-right: 10px;
+    background-color: gray;
+    color: #999;
+    text-align: right;
+}
+
+.onoffswitch-switch-gray {
+    display: block;
+    width: 15px;
+    margin: 7.5px;
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 66px;
+    border: 2px solid #999;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox-gray:checked + .onoffswitch-label-gray .onoffswitch-inner-gray {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox-gray:checked + .onoffswitch-label-gray .onoffswitch-switch-gray {
+    right: 0px;
+}
+
+/******/
+.onoffswitch-close-open {
+    position: relative;
+    width: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox-close-open {
+    display: none;
+}
+
+.onoffswitch-label-close-open {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner-close-open {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner-close-open:before, .onoffswitch-inner-close-open:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner-close-open:before {
+    content: "وصل";
+    padding-right: 10px;
+    background-color: red;
+    color: #999;
+}
+
+.onoffswitch-inner-close-open:after {
+    content: "قطع";
+    padding-left: 10px;
+    background-color: green;
+    color: #FFF;
+    text-align: right;
+}
+
+.onoffswitch-switch-close-open {
+    display: block;
+    width: 15px;
+    margin: 7.5px;
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 66px;
+    border: 2px solid #999;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox-close-open:checked + .onoffswitch-label-close-open .onoffswitch-inner-close-open {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox-close-open:checked + .onoffswitch-label-close-open .onoffswitch-switch-close-open {
+    right: 0px;
+}
+
+/******/
+.onoffswitch-close {
+    position: relative;
+    width: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox-close {
+    display: none;
+}
+
+.onoffswitch-label-close {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner-close {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner-close:before, .onoffswitch-inner-close:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner-close:before {
+    content: "";
+    padding-right: 10px;
+    background-color: red;
+    color: #999;
+}
+
+.onoffswitch-inner-close:after {
+    content: "وصل";
+    padding-left: 10px;
+    background-color: green;
+    color: #FFF;
+    text-align: right;
+}
+
+.onoffswitch-switch-close {
+    display: block;
+    width: 15px;
+    margin: 7.5px;
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 66px;
+    border: 2px solid #999;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox-close:checked + .onoffswitch-label-close .onoffswitch-inner-close {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox-close:checked + .onoffswitch-label-close .onoffswitch-switch-close {
+    right: 0px;
+}
+
+/******/
+.onoffswitch-open {
+    position: relative;
+    width: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox-open {
+    display: none;
+}
+
+.onoffswitch-label-open {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner-open {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner-open:before, .onoffswitch-inner-open:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner-open:before {
+    content: "";
+    padding-right: 10px;
+    background-color: red;
+    color: #999;
+}
+
+.onoffswitch-inner-open:after {
+    content: "قطع";
+    padding-left: 10px;
+    background-color: green;
+    color: #FFF;
+    text-align: right;
+}
+
+.onoffswitch-switch-open {
+    display: block;
+    width: 15px;
+    margin: 7.5px;
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 66px;
+    border: 2px solid #999;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox-open:checked + .onoffswitch-label-open .onoffswitch-inner-open {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox-open:checked + .onoffswitch-label-open .onoffswitch-switch-open {
+    right: 0px;
+}
+
+/******/
+.onoffswitch-door {
+    position: relative;
+    width: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox-door {
+    display: none;
+}
+
+.onoffswitch-label-door {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner-door {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner-door:before, .onoffswitch-inner-door:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner-door:before {
+    content: "درب بسته";
+    padding-right: 10px;
+    background-color: red;
+    color: #999;
+}
+
+.onoffswitch-inner-door:after {
+    content: "درب باز";
+    padding-left: 10px;
+    background-color: green;
+    color: #FFF;
+    text-align: right;
+}
+
+.onoffswitch-switch-door {
+    display: block;
+    width: 15px;
+    margin: 7.5px;
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 66px;
+    border: 2px solid #999;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox-door:checked + .onoffswitch-label-door .onoffswitch-inner-door {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox-door:checked + .onoffswitch-label-door .onoffswitch-switch-door {
+    right: 0px;
+}
+
+/******/
+.onoffswitch-door1 {
+    position: relative;
+    width: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox-door1 {
+    display: none;
+}
+
+.onoffswitch-label-door1 {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner-door1 {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner-door1:before, .onoffswitch-inner-door1:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner-door1:before {
+    content: "درب یک بسته";
+    padding-right: 10px;
+    background-color: red;
+    color: #999;
+}
+
+.onoffswitch-inner-door1:after {
+    content: "درب یک باز";
+    padding-left: 10px;
+    background-color: green;
+    color: #FFF;
+    text-align: right;
+}
+
+.onoffswitch-switch-door1 {
+    display: block;
+    width: 15px;
+    margin: 7.5px;
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 66px;
+    border: 2px solid #999;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox-door1:checked + .onoffswitch-label-door1 .onoffswitch-inner-door1 {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox-door1:checked + .onoffswitch-label-door1 .onoffswitch-switch-door1 {
+    right: 0px;
+}
+
+/******/
+.onoffswitch-door2 {
+    position: relative;
+    width: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox-door2 {
+    display: none;
+}
+
+.onoffswitch-label-door2 {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner-door2 {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner-door2:before, .onoffswitch-inner-door2:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner-door2:before {
+    content: "درب 2 بسته";
+    padding-right: 10px;
+    background-color: red;
+    color: #999;
+}
+
+.onoffswitch-inner-door2:after {
+    content: "درب 2 باز";
+    padding-left: 10px;
+    background-color: green;
+    color: #FFF;
+    text-align: right;
+}
+
+.onoffswitch-switch-door2 {
+    display: block;
+    width: 15px;
+    margin: 7.5px;
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 66px;
+    border: 2px solid #999;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox-door2:checked + .onoffswitch-label-door2 .onoffswitch-inner-door2 {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox-door2:checked + .onoffswitch-label-door2 .onoffswitch-switch-door2 {
+    right: 0px;
+}
+
+/******/
+.onoffswitch-lock {
+    position: relative;
+    width: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox-lock {
+    display: none;
+}
+
+.onoffswitch-label-lock {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner-lock {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner-lock:before, .onoffswitch-inner-lock:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner-lock:before {
+    content: "قفل";
+    padding-right: 10px;
+    background-color: red;
+    color: #999;
+}
+
+.onoffswitch-inner-lock:after {
+    content: "باز";
+    padding-left: 10px;
+    background-color: green;
+    color: #FFF;
+    text-align: right;
+}
+
+.onoffswitch-switch-lock {
+    display: block;
+    width: 15px;
+    margin: 7.5px;
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 66px;
+    border: 2px solid #999;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox-lock:checked + .onoffswitch-label-lock .onoffswitch-inner-lock {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox-lock:checked + .onoffswitch-label-lock .onoffswitch-switch-lock {
+    right: 0px;
+}
+
+/******/
+.onoffswitch-gas {
+    position: relative;
+    width: 100px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.onoffswitch-checkbox-gas {
+    display: none;
+}
+
+.onoffswitch-label-gas {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 2px solid #999;
+    border-radius: 20px;
+}
+
+.onoffswitch-inner-gas {
+    display: block;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.onoffswitch-inner-gas:before, .onoffswitch-inner-gas:after {
+    display: block;
+    float: left;
+    width: 50%;
+    height: 30px;
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+    color: white;
+    font-family: Trebuchet, Arial, sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.onoffswitch-inner-gas:before {
+    content: "گاز خالی";
+    padding-right: 10px;
+    background-color: red;
+    color: #999;
+}
+
+.onoffswitch-inner-gas:after {
+    content: "گاز پر";
+    padding-left: 10px;
+    background-color: green;
+    color: #FFF;
+    text-align: right;
+}
+
+.onoffswitch-switch-gas {
+    display: block;
+    width: 15px;
+    margin: 7.5px;
+    background: #FFF;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 66px;
+    border: 2px solid #999;
+    border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.onoffswitch-checkbox-gas:checked + .onoffswitch-label-gas .onoffswitch-inner-gas {
+    margin-left: 0;
+}
+
+.onoffswitch-checkbox-gas:checked + .onoffswitch-label-gas .onoffswitch-switch-gas {
+    right: 0px;
+}
+
+/* Door */
+.perspective {
+    background: url("http://dc428.4shared.com/img/QWu4ziBq/s3/doorBorder.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: inline;
+    float: left;
+    height: 100px;
+    width: 50px;
+    margin: 20px;
+    margin-left: 0px;
+    -webkit-perspective: 450px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.thumb {
+    background: url("http://dc428.4shared.com/img/-vayshJ-/s3/ClassDoor.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    box-sizing: border-box;
+    border-radius: 3px;
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, .0) inset;
+    transition: 1s transform linear;
+    transform-origin: left;
+    cursor: pointer;
+}
+
+.thumbOpened {
+    transform: rotateY(-90deg);
+    transform-origin: 8px;
+    transition: .5s linear;
+}
+
+.alert {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #FCF8E3;
+    border: 1px solid #FBEED5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #000;
+    transform-origin: left;
+    transform: rotateY(180deg);
+    opacity: 0;
+    animation-name: go;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    width: 350px;
+}
+
+@keyframes go {
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+}
+
+.left_panel {
+    padding: 10px;
+    width: 20%;
+    float: left;
+    min-width: 250px;
+}
+
+.right_panel {
+    padding: 10px;
+    width: 80%;
+    float: right;
+    min-width: 500px;
+}
+
+.panel_div {
+    padding: 10px;
+    margin: 2px auto;
+    min-height: 200px;
+    min-width: 100%;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.device_info {
+    height: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px black solid;
+    padding: 1px;
+    margin: 1px;
+}
+
+.device_digital {
+    height: 35px;
+    border: white solid 1px;
+    background-color: black;
+}
+
+/* Board Box*/
+.board_box {
+    float: left;
+    padding: 2px;
+    min-height: 200px;
+    direction: ltr;
+}
+
+/* Chart_box Box*/
+.chart_box {
+    float: left;
+    padding: 2px;
+    min-height: 200px;
+    width: 80%;
+}
+
+/* Chart_box Box*/
+.table_box {
+    float: left;
+    padding: 2px;
+    width: 100%;
+}
+
+.errors {
+    width: 100%;
+    min-height: 25px;
+    overflow: auto;
+    background-color: #EEE;
+}
+
+.errors_green {
+    color: green;
+}
+
+.errors_red {
+    color: red;
+}
+
+.errors_yellow {
+    color: yellow;
+}
+
+.linear_gauge {
+    padding: 5px 0 0 70px !important;
+}
+
+.fuse {
+    width: 16px;
+    height: 32px;
+}

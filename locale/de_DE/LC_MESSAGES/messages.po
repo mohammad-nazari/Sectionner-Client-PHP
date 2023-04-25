@@ -1,0 +1,552 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sectionner\n"
+"POT-Creation-Date: 2016-08-15 12:48+0430\n"
+"PO-Revision-Date: 2016-08-15 13:51+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: scripts/Chart.js-master/dist/Chart.bundle.min.js:11
+msgid ""
+"moment construction falls back to js Date. This is discouraged and will be "
+"removed in upcoming major release. Please refer to https://github.com/moment/"
+"moment/issues/1407 for more info."
+msgstr ""
+
+#: scripts/Chart.js-master/dist/Chart.bundle.min.js:11
+msgid ""
+"moment().min is deprecated, use moment.max instead. https://github.com/"
+"moment/moment/issues/1548"
+msgstr ""
+
+#: scripts/Chart.js-master/dist/Chart.bundle.min.js:11
+msgid ""
+"moment().max is deprecated, use moment.min instead. https://github.com/"
+"moment/moment/issues/1548"
+msgstr ""
+
+#: scripts/Chart.js-master/dist/Chart.bundle.min.js:11
+msgid ""
+"moment().lang() is deprecated. Instead, use moment().localeData() to get the "
+"language configuration. Use moment().locale() to change languages."
+msgstr ""
+
+#: scripts/Chart.js-master/dist/Chart.bundle.min.js:12
+msgid "dates accessor is deprecated. Use date instead."
+msgstr ""
+
+#: scripts/Chart.js-master/dist/Chart.bundle.min.js:12
+msgid "months accessor is deprecated. Use month instead"
+msgstr ""
+
+#: scripts/Chart.js-master/dist/Chart.bundle.min.js:12
+msgid "years accessor is deprecated. Use year instead"
+msgstr ""
+
+#: scripts/Chart.js-master/dist/Chart.bundle.min.js:12
+msgid ""
+"moment().zone is deprecated, use moment().utcOffset instead. https://github."
+"com/moment/moment/issues/1779"
+msgstr ""
+
+#: scripts/Chart.js-master/dist/Chart.bundle.min.js:12
+msgid "moment.lang is deprecated. Use moment.locale instead."
+msgstr ""
+
+#: scripts/Chart.js-master/dist/Chart.bundle.min.js:12
+msgid "moment.langData is deprecated. Use moment.localeData instead."
+msgstr ""
+
+#: scripts/Chart.js-master/dist/Chart.bundle.min.js:12
+msgid ""
+"toIsoString() is deprecated. Please use toISOString() instead (notice the "
+"capitals)"
+msgstr ""
+
+#: control/TempLoader.php:87 control/TempLoader.php:322
+#: control/TempLoader.php:489 control/TempLoader.php:1095
+#: control/TempLoader.php:2001
+msgid "Device "
+msgstr "دستگاه"
+
+#: control/TempLoader.php:1376
+msgid "Device errors"
+msgstr "خطاهای دستگاه"
+
+#: control/TempLoader.php:1381 control/TempLoader.php:1393
+msgid "Date"
+msgstr "تاریخ"
+
+#: control/TempLoader.php:1381 control/TempLoader.php:1393
+msgid "Time"
+msgstr "زمان"
+
+#: control/TempLoader.php:1384 control/TempLoader.php:1394
+msgid "Error"
+msgstr "خطا"
+
+#: control/TempLoader.php:1384 control/TempLoader.php:1396
+msgid "Description"
+msgstr "توضیحات"
+
+#: control/TempLoader.php:1389
+msgid "Clean Errors List"
+msgstr "پاک کردن فهرست خطاها"
+
+#: control/TempLoader.php:1418
+msgid "Device information"
+msgstr "اطلاعات دستگاه"
+
+#: control/TempLoader.php:1423 control/TempLoader.php:1754
+msgid "Property Name"
+msgstr "نام ویژگی"
+
+#: control/TempLoader.php:1426 control/TempLoader.php:1757
+#: view/templates/users.php:233
+msgid "Value"
+msgstr "مقدار"
+
+#: control/TempLoader.php:1426 control/TempLoader.php:1431
+#: control/TempLoader.php:1757
+msgid "Status"
+msgstr "وضعیت"
+
+#: control/TempLoader.php:1439
+msgid "Serial NO"
+msgstr "شماره سریال"
+
+#: control/TempLoader.php:1447
+msgid "Model"
+msgstr "مدل"
+
+#: control/TempLoader.php:1455 control/TempLoader.php:1531
+msgid "Name"
+msgstr "نام"
+
+#: control/TempLoader.php:1463 control/TempLoader.php:1539
+msgid "Date Time"
+msgstr "تاریخ زمان"
+
+#: control/TempLoader.php:1479 control/TempLoader.php:1571
+msgid "Location"
+msgstr "مکان"
+
+#: control/TempLoader.php:1487 control/TempLoader.php:1579
+msgid "City"
+msgstr "شهر"
+
+#: control/TempLoader.php:1495
+msgid "IP Address"
+msgstr "آدرس آی پی"
+
+#: control/TempLoader.php:1505 control/TempLoader.php:1587
+msgid "Sampling Time"
+msgstr "زمان نمونه گیری"
+
+#: control/TempLoader.php:1505 control/TempLoader.php:1587
+msgid "Seconds"
+msgstr "ثانیه"
+
+#: control/TempLoader.php:1521
+msgid "Change Settings"
+msgstr "تغییر تنظیمات"
+
+#: control/TempLoader.php:1595
+msgid "Position"
+msgstr "مکان"
+
+#: control/TempLoader.php:1617 control/TempLoader.php:1778
+#: view/templates/device.php:277
+msgid "Power"
+msgstr "قدر"
+
+#: control/TempLoader.php:1625 control/TempLoader.php:1786
+msgid "Capacity"
+msgstr "ظرفیت"
+
+#: control/TempLoader.php:1635 view/templates/report.php:90
+#: view/templates/users.php:290
+msgid "Submit"
+msgstr "ثبت"
+
+#: control/TempLoader.php:1637 view/templates/users.php:292
+msgid "Close"
+msgstr "بستن"
+
+#: control/TempLoader.php:1749
+msgid "Device status"
+msgstr "وضعیت دستگاه"
+
+#: control/TempLoader.php:1762
+msgid "POK"
+msgstr ""
+
+#: control/TempLoader.php:1770 control/TempLoader.php:1810
+msgid "PT"
+msgstr ""
+
+#: control/TempLoader.php:1794
+msgid "PR"
+msgstr ""
+
+#: control/TempLoader.php:1802
+msgid "PS"
+msgstr ""
+
+#: control/TempLoader.php:1818
+msgid "QR"
+msgstr ""
+
+#: control/TempLoader.php:1826
+msgid "QS"
+msgstr ""
+
+#: control/TempLoader.php:1834
+msgid "QT"
+msgstr ""
+
+#: control/TempLoader.php:1856
+msgid "Device fuses status"
+msgstr "وضعیت فیوز دستگاه"
+
+#: control/TempLoader.php:1916
+msgid "Camera Ip"
+msgstr "آی پی دوربین"
+
+#: control/TempLoader.php:1926
+msgid "Load Picture"
+msgstr "بارگذاری تصویر"
+
+#: control/TempLoader.php:2098 control/TempLoader.php:2111
+#: control/TempLoader.php:2161 control/TempLoader.php:2174
+#: control/TempLoader.php:2226 control/TempLoader.php:2239
+msgid "Sensor Name"
+msgstr "نام سنسور"
+
+#: control/TempLoader.php:2103
+msgid "ACVOLTAGE"
+msgstr ""
+
+#: control/TempLoader.php:2114 control/TempLoader.php:2177
+#: control/TempLoader.php:2242
+msgid "Offset Value"
+msgstr "مقدار انحراف"
+
+#: control/TempLoader.php:2117 control/TempLoader.php:2180
+#: control/TempLoader.php:2245
+msgid "Min Real Value"
+msgstr "مقدار کمینه واقعی"
+
+#: control/TempLoader.php:2120 control/TempLoader.php:2183
+#: control/TempLoader.php:2248
+msgid "Max Real Value"
+msgstr "مقدار بیشینه واقعی"
+
+#: control/TempLoader.php:2123 control/TempLoader.php:2186
+#: control/TempLoader.php:2251
+msgid "Min Device Value"
+msgstr "مقدار کمینه دستگاه"
+
+#: control/TempLoader.php:2126 control/TempLoader.php:2189
+#: control/TempLoader.php:2254
+msgid "Max Device Value"
+msgstr "مقدار بیشینه دستگاه"
+
+#: control/TempLoader.php:2166
+msgid "COSQ"
+msgstr ""
+
+#: control/TempLoader.php:2231
+msgid "ACAMPERE"
+msgstr ""
+
+#: control/definitions.php:499
+msgid "No response received from server or device"
+msgstr "هیچ پیامی از سوی سرور و یا دستگاه دریافت نشد"
+
+#: control/definitions.php:500
+msgid "Settings set successfully"
+msgstr "تنظیمات با موفقیت تنظیم شد"
+
+#: control/definitions.php:501
+msgid "Relay set successfully"
+msgstr "دستورات رله با موفقیت اجرا شد"
+
+#: control/definitions.php:502
+msgid "Error in set settings"
+msgstr "خطا در ثبت تنظیمات"
+
+#: control/definitions.php:503
+msgid "Error in set relay"
+msgstr "خطا در ثبت دستورات رله"
+
+#: view/alldevices.php:10
+msgid "Show all devices"
+msgstr "نمایش همه دستگاه ها"
+
+#: view/calibration.php:12 view/report.php:12
+msgid "Get and show reports"
+msgstr "دریافت و نمایش گزارش"
+
+#: view/device.php:14
+msgid "Show device status"
+msgstr "نمایش وضعیت دستگاه"
+
+#: view/login.php:65
+msgid "User Login"
+msgstr "ورود کاربر"
+
+#: view/options.php:13
+msgid "Get and set settings"
+msgstr "دریافت و ثبت تنظیمات"
+
+#: view/templates/alldevices.php:15 view/templates/alldevices.php:32
+msgid "Error:"
+msgstr "خطا:"
+
+#: view/templates/alldevices.php:24
+msgid "Fault (Expect - The request contains an invalid SOAP body)"
+msgstr ""
+
+#: view/templates/alldevices.php:121
+msgid "Sectionners"
+msgstr "سکسیونرها"
+
+#: view/templates/alldevices.php:123
+msgid "Managers"
+msgstr "مدیریت بارها"
+
+#: view/templates/alldevices.php:160 view/templates/alldevices.php:242
+msgid "Name: "
+msgstr "نام:"
+
+#: view/templates/alldevices.php:169 view/templates/alldevices.php:251
+msgid "City: "
+msgstr "شهر:"
+
+#: view/templates/alldevices.php:178 view/templates/alldevices.php:260
+msgid "Station: "
+msgstr "مکان:"
+
+#: view/templates/alldevices.php:194 view/templates/alldevices.php:276
+msgid "Details"
+msgstr "جزئیات"
+
+#: view/templates/calibration.php:17 view/templates/report.php:23
+msgid "Device List : "
+msgstr "فهرست دستگاه ها:"
+
+#: view/templates/calibration.php:34
+msgid "Get calibration Data"
+msgstr "دریافت داده های کالیبره"
+
+#: view/templates/calibration.php:37
+msgid "Set calibration Data"
+msgstr "ثبت داده های کالیبره"
+
+#: view/templates/device.php:121
+msgid "Device Picture"
+msgstr "تصویر دستگاه"
+
+#: view/templates/device.php:126
+msgid "Get Status Now"
+msgstr "دریافت آنی وضعیت دستگاه"
+
+#: view/templates/device.php:200
+msgid "Device last picture"
+msgstr "آخرین تصویر دستگاه"
+
+#: view/templates/device.php:224
+msgid "Device position"
+msgstr "موقعیت دستگاه"
+
+#: view/templates/device.php:268 view/templates/device.php:343
+msgid "AC Voltage"
+msgstr ""
+
+#: view/templates/device.php:271 view/templates/device.php:346
+msgid "AC Ampere"
+msgstr ""
+
+#: view/templates/device.php:274 view/templates/device.php:349
+msgid "CosΦ"
+msgstr ""
+
+#: view/templates/device.php:280
+msgid "Reactive"
+msgstr ""
+
+#: view/templates/device.php:283 view/templates/device.php:352
+msgid "Relay"
+msgstr ""
+
+#: view/templates/device.php:286 view/templates/device.php:355
+msgid "Digital In"
+msgstr ""
+
+#: view/templates/footer.php:11
+msgid "Copy Right reserved for"
+msgstr "حق کپی بردازی محفوظ است برای "
+
+#: view/templates/footer.php:13
+msgid "Behsaz Control Parse (BCP).CO"
+msgstr ""
+
+#: view/templates/login.php:21
+msgid "Username:"
+msgstr "نام کاربری:"
+
+#: view/templates/login.php:25
+msgid "Password:"
+msgstr "گذرواژه:"
+
+#: view/templates/login.php:29
+msgid "Forgot your password"
+msgstr "گذرواژه خود را فراموش کرده اید"
+
+#: view/templates/menu.php:11
+msgid "menu"
+msgstr "منو"
+
+#: view/templates/menu.php:14
+msgid "All devices"
+msgstr "همه دستگاهها"
+
+#: view/templates/menu.php:20
+msgid "admin"
+msgstr "ادمین"
+
+#: view/templates/menu.php:26
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: view/templates/menu.php:32
+msgid "Users"
+msgstr "کاربران"
+
+#: view/templates/menu.php:38
+msgid "Calibration"
+msgstr "کالیبره کردن"
+
+#: view/templates/menu.php:43
+msgid "Reports"
+msgstr "گزارش ها"
+
+#: view/templates/menu.php:46
+msgid "Contact"
+msgstr "تماس"
+
+#: view/templates/menu.php:49
+msgid "Help"
+msgstr "کمک"
+
+#: view/templates/menu.php:55
+msgid "Introduction"
+msgstr "معرفی"
+
+#: view/templates/menu.php:61
+msgid "About"
+msgstr "درباره"
+
+#: view/templates/menu.php:66
+msgid "Log out"
+msgstr "خروج"
+
+#: view/templates/report.php:40
+msgid "From Date : "
+msgstr "از تاریخ : "
+
+#: view/templates/report.php:67
+msgid "To Date : "
+msgstr "تا تاریخ:"
+
+#: view/templates/users.php:24
+msgid "Refresh Users List"
+msgstr "تازه سازی فهرست کاربران"
+
+#: view/templates/users.php:56
+msgid "Add New User"
+msgstr "ثبت کاربر جدید"
+
+#: view/templates/users.php:64
+msgid "Row"
+msgstr "ردیف"
+
+#: view/templates/users.php:67 view/templates/users.php:238
+msgid "User Name"
+msgstr "نام کاربری"
+
+#: view/templates/users.php:70 view/templates/users.php:262
+msgid "First Name"
+msgstr "نام"
+
+#: view/templates/users.php:73 view/templates/users.php:270
+msgid "Last Name"
+msgstr "نام خانوادگی"
+
+#: view/templates/users.php:76 view/templates/users.php:278
+msgid "Role"
+msgstr "نقش"
+
+#: view/templates/users.php:79
+msgid "Picture"
+msgstr "تصویر"
+
+#: view/templates/users.php:82
+msgid "Action"
+msgstr "عملیات"
+
+#: view/templates/users.php:111 view/templates/users.php:112
+msgid "Edit user"
+msgstr "ویرایش کاربر"
+
+#: view/templates/users.php:161 view/templates/users.php:162
+msgid "Delete user"
+msgstr "حذف کاربر "
+
+#: view/templates/users.php:230
+msgid "Attribute"
+msgstr "صفت"
+
+#: view/templates/users.php:246
+msgid "Password"
+msgstr "گذرواژه"
+
+#: view/templates/users.php:254
+msgid "Retype Password"
+msgstr "گذرواژه مجدد"
+
+#: view/users.php:12
+msgid "Edit Users"
+msgstr "ویرایش کابران"
+
+#~ msgid "Home Page"
+#~ msgstr "Home Page"
+
+#~ msgid "Main Page"
+#~ msgstr "Main Page"
+
+#~ msgid "User"
+#~ msgstr "User"
+
+#~ msgid "Sectionner"
+#~ msgstr "Sectionner"
+
+#~ msgid "Manager"
+#~ msgstr "Manager"
+
+#~ msgid "SectionnerName"
+#~ msgstr "Post"
+
+#~ msgid "ManagerName"
+#~ msgstr "Headline"
